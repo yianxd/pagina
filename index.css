@@ -1,0 +1,258 @@
+@font-face{
+    font-family: CaviarDreams;
+    src: url(fuentes/CaviarDreams.ttf)
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 110px;
+    background-color: #ABD14B;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+header h2{
+    font-family:CaviarDreams;
+    font-size: 3.3em;
+    color: #F2FFD3;
+
+}
+
+header header{
+    display: flex;
+    margin-top: -52px;
+    margin-right: 5px;
+    justify-content: space-between;
+    text-align: center;
+}
+header a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    
+}
+
+header header .ayuda{
+    height: 30px;
+    width: 100px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+
+}
+
+header header .registrarse{
+
+    height: 30px;
+    width: 100px;
+    background-color:#DBE88B;
+    border: 5.0px solid white;
+
+}
+
+header header .login{
+
+    height: 30px;
+    width: 100px;
+    background-color:#DBE88B;
+    border: 5.0px solid white;
+}
+
+
+.logo{
+    display: flex;
+    margin-left: 5px;
+}
+
+.logo img{
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+body nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image:url(multimedia/img1.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.Buscador{
+    margin-top: 70px;
+    background-color:#ABD14B;
+    height: 55px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.0em;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px;
+}
+.Buscador label{
+    color:#F2FFD3;
+    font-size: 1.1em;
+} 
+
+.fecha_llegada{
+
+    margin-left: 180px;
+}
+
+
+
+.fecha_llegada input{
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: 5px;
+    border-radius: 5px;
+    background-color: rgb(244, 250, 245);
+    color: black;
+}
+
+.fecha_salida input{
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #f4faf5;
+    color: black;
+}
+
+.button2{
+    margin-right: 180px;
+    height: 40px;
+    width: 70px;
+    background-color: #DBE88B;
+    color: black;
+    text-align: center;
+    font-size: 0.5em;
+    border-radius: 10%;
+}
+
+.button2:hover{
+    height: 40px;
+    width: 70px;
+    background-color: #0d5706;
+    color: white;
+
+}
+
+
+.button2:active{
+    height: 40px;
+    background:#DBE88B;
+    color: rgb(0, 0, 0);
+}
+
+.button1{
+
+    height: 40px;
+    width: 70px;
+    background-color: #DBE88B;
+    color: black;
+    text-align: center;
+    font-size: 0.5em;
+    border-radius: 10%;
+}
+
+.button1:hover{
+    height: 40px;
+    background-color: rgb(13, 87, 6);
+    color: white;
+
+}
+.button1:active{
+    height: 40px;
+    background:#DBE88B;
+    color: rgb(0, 0, 0);
+}
+/*
+.tipo select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    display:  inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background-color: #d7eebb;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 0.8em;;
+    border: 10px rgb(0, 0, 0);
+    position: relative;
+    transition: all 0.25 ease;
+}
+.tipo{
+    position: relative;
+}
+*/
+
+.tipo select{
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #f4faf5;
+    color: black;
+}
+
+
+
+article .box{
+    height: 130px;
+    background-color: rgb(51, 155, 48);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    height: auto;
+    width: 100%;
+}
+article .box p{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 26px;
+}
+
+article .box2{
+    background-color: #ABD14B;
+    width: 100%;
+    height: 560px;
+}
+article .tex{
+    text-align: center;
+}
+article .galeria img{
+    width: 260px;
+    height: 150px;
+}
+article .galeria{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 5px;
+    padding: 5px;
+}
