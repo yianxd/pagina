@@ -1,0 +1,141 @@
+@font-face{
+    font-family: CaviarDreams;
+    src: url(../fuentes/CaviarDreams.ttf)
+}
+
+*{
+    margin: none;
+    padding: none;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 110px;
+    background-color: #ABD14B;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h2{
+    font-family:CaviarDreams;
+    font-size: 3.3em;
+    color: #F2FFD3;
+    
+
+}
+
+header a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    
+}
+
+header .volver{
+    height: 30px;
+    width: 150px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+
+}
+
+
+
+section{
+    display: flex;
+    height: 810px;
+    background-color: #e4eabc;
+    border: 5.0px solid white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+section h2{
+    height: 510px;
+    font-family:CaviarDreams;
+    font-size: 3.9em;
+    color: #000000;
+    margin-left: 600px;
+    margin-right: 100px;
+
+}
+
+article{
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 900px;
+
+}
+
+article a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    
+}
+
+article .pregunta1{
+
+    height: 30px;
+    width: 700px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+    
+}
+
+article .pregunta2{
+    height: 30px;
+    width: 700px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+}
+
+article .pregunta3{
+    height: 30px;
+    width: 700px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+}
+
+article .pregunta4{
+    height: 30px;
+    width: 700px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+}
+
+article .pregunta5{
+    height: 30px;
+    width: 700px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+}
+
+article .controls {
+    height: 50px;
+    width: 700px;
+    margin-left: -990px;
+    margin-right: 1000px;
+
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+}
