@@ -1,0 +1,226 @@
+@font-face{
+    font-family: CaviarDreams;
+    src: url(../fuentes/CaviarDreams.ttf)
+}
+
+body{
+    background-image: url(../multimedia/habitacion_ayuda.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    height: 110px;
+    background-color: rgb(92, 195, 104);
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.titulo{
+    font-family: CaviarDreams;
+    font-size: 3.3em;
+    color: black;
+    text-shadow:#525552 4px 4px 5px;
+}
+
+.volver{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(69, 183, 49);
+    border: 5.0px solid white;
+    text-align: center;
+    border-radius: 0px 5px 15px 40px;
+    box-shadow: #999 5px 5px 5px;
+    margin-right: 20px;
+}
+
+.volver a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+}
+
+.logo img{
+    border-radius: 50%;
+    box-shadow: #525552 4px 4px 5px;
+    margin-left: 40px;
+    border:2px solid black;
+}
+
+section{
+    display: flex;
+    height: 910px;
+    background-color: rgb(141, 214, 150);
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.titulo_pre{
+    font-family: CaviarDreams;
+    font-size: 3.0em;
+    color: black;
+    text-shadow:#525552 4px 4px 5px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.busqueda .controls{
+    background-color: rgb(167, 195, 195);
+    border-color: #000000;
+    border-radius: 10px;
+    height: 40px;
+    width: 450px;
+    margin-top: 90px;
+    margin-left: -370px;
+    font-size: 1.5em;
+}
+
+.sugerencias{
+    margin-top: 400px;
+    margin-right: 500px;
+    margin-left: -700px;
+}
+
+.pregunta1{
+    height: 30px;
+    width: 490px;
+    background-color: rgb(69, 183, 49);
+    border: 5.0px solid white;
+    text-align: center;
+    box-shadow: #999 5px 5px 5px;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-left: 200px;
+}
+.pregunta2{
+    height: 30px;
+    width: 490px;
+    background-color: rgb(69, 183, 49);
+    border: 5.0px solid white;
+    text-align: center;
+    box-shadow: #999 5px 5px 5px;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-left: 200px;
+
+}
+.pregunta3{
+    height: 30px;
+    width: 490px;
+    background-color: rgb(69, 183, 49);
+    border: 5.0px solid white;
+    text-align: center;
+    box-shadow: #999 5px 5px 5px;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-left: 200px;
+
+}
+.pregunta4{
+    height: 30px;
+    width: 490px;
+    background-color: rgb(69, 183, 49);
+    border: 5.0px solid white;
+    text-align: center;
+    box-shadow: #999 5px 5px 5px;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-left: 200px;
+}
+.pregunta5{
+    height: 30px;
+    width: 490px;
+    background-color: rgb(69, 183, 49);
+    border: 5.0px solid white;
+    text-align: center;
+    box-shadow: #999 5px 5px 5px;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-left: 200px;
+}
+
+.pregunta1 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+}
+
+.pregunta2 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+}
+
+.pregunta3 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+}
+
+.pregunta4 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+}
+
+.pregunta5 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+}
+
+footer{
+    display: flex;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.pie h5{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-shadow:#525552 3px 3px 5px;
+    text-align: center;
+}
+
+.imagen1 img{
+    margin-left: -1300px;
+    margin-top: 365px;
+    border-radius: 50%;
+    box-shadow: #525552 4px 4px 5px;
+    border:2px solid black;
+
+}
+
+.imagen2 img{
+    margin-left: -380px;
+    margin-top: -380px;
+    border-radius: 50%;
+    box-shadow: #525552 4px 4px 5px;
+    border:2px solid black;
+
+}
