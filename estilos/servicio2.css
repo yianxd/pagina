@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Caviardreams;
+    src: url(../fuentes/CaviarDreams);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f8f8;;
+}
+body h2{
+    font-family:CaviarDreams;
+    font-size: 2em;
+    color: #000000;
+    margin: 50px;
+    
+
+}
+header{
+    display: flex;
+    height: 110px;
+    background-color: #ABD14B;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h2{
+    font-family:CaviarDreams;
+    font-size: 3.3em;
+    color: #F2FFD3;
+    margin-top: 2px;
+    
+
+}
+
+
+header a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    
+}
+
+header .volver{
+    height: 30px;
+    width: 150px;
+    background-color: #DBE88B;
+    border: 5.0px solid white;
+    text-align: center;
+
+}
+.caja_1 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+    margin-top: auto;
+    
+}
+.caja_2 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+    
+}
+.caja_3 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+}
+.caja_4 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+    
+}
+.caja_5 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+    
+}
+.caja_5 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+    
+}.caja_6 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+    
+}
+.caja_7 a{
+    height: 30px;
+    width: 150px;
+    background-color: #94a812;
+
+    
+}
+.cajadeletras h2{
+    font-family:CaviarDreams;
+    font-size: 3.5em;
+    color: #55740d;
+    margin: 11px;
+    
+}
+.logo{
+    display: flex;
+    margin-left: 5px;
+}
+.logo img{
+    height:100px;
+    border-radius: 50%;
+}
+.caja_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px;
+
+}
+.caja_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px; 
+}
+.caja_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px;
+}
+.caja_4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px;
+}
+.caja_5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px;
+}
+.caja_6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px;
+}
+.caja_7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    margin: 100px;
+}
